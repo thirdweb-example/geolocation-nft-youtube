@@ -11,12 +11,16 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@thirdweb-dev/engine": "^0.0.4",
     "@thirdweb-dev/react": "^4",
     "@thirdweb-dev/sdk": "^4",
+    "@types/leaflet": "^1.9.8",
     "ethers": "^5",
+    "leaflet": "^1.9.4",
     "next": "^13",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
